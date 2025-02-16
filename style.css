@@ -5,27 +5,52 @@ body{
 }
 .header{
     height: 80px;
+    width: 980px;
     border-radius: 5px;
-    background-color: mediumseagreen;
-    /* text-align: center; */
+    background: linear-gradient(to right, mediumseagreen, rgb(246, 246, 202));
+    box-sizing: border-box;
+    padding-left: 30px;
+    position: fixed;
+    display: flex;
+    z-index: 5;
 }
-main{
+h1{
+    font-family:Tahoma;
+}
+.content{
+    display: flex;
     min-height: 90vh;
     margin-top: 10px;
     border-radius: 5px;
-    display: flex;
+    padding-top: 80px;
 }
 .names{
     width: 150px;
+    height: 89vh;
     border-radius: 5px;
-    text-align: center;
-    justify-content: space-evenly;
-    background-color: rgb(170, 243, 203);
-
+    text-align:left;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: fixed;
+    justify-content:space-between;
+    background: rgb(170, 243, 203);
 }
-.content{
-    flex: 1;
-    background-color: rgb(170, 243, 203);
+li{
+    font-family:Tahoma;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main{
+    font-family: Tahoma;
+    width: 800px;
+    background: rgb(170, 243, 203);
     border-radius: 5px;
-    margin-left: 10px;
+    margin-left: 170px;
+    padding-left: 10px;
+}
+img{
+    position: sticky;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(74, 61, 61);
+    z-index: 4;
 }
