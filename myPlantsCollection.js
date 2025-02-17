@@ -35,7 +35,7 @@ const myPlantsCollection = [
     Date: "2019/07/頃",  
     MainImage: "./img/ango.jpg",
     Images:[],
-    IntroductionText:"ゾウの様な立派な貯水葉が魅力的。子株が出来やすい。",
+    IntroductionText:"ゾウの耳の様な立派な胞子葉が魅力的。子株が出来やすい。",
 },
 // {
 //     Name: "サラセニア",
