@@ -2,11 +2,13 @@ body{
     display: flex;
     flex-direction: column;
     background-color: rgb(233, 250, 241);
+    margin-top: 0px;
 }
 .header{
     height: 80px;
     width: 980px;
-    border-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
     background: linear-gradient(to right, mediumseagreen, rgb(246, 246, 202));
     box-sizing: border-box;
     padding-left: 30px;
