@@ -42,6 +42,13 @@ li{
     font-size: 18px;
     font-weight: bold;
 }
+li:hover{
+    font-family:Tahoma;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
 .main{
     font-family: Tahoma;
     width: 800px;
